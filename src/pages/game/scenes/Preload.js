@@ -5,7 +5,7 @@ class PreloadScene extends Phaser.Scene {
 		super("PreloadScene");
 	}
 	preload() {
-		this.load.setPath("/src");
+		this.load.setPath("/");
 		this.load.image("bg", "assets/bg.jpg");
 		this.load.image("player", "assets/ship.png");
 		this.load.spritesheet("bullet", "assets/bullet2.png", {
